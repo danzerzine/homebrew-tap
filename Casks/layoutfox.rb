@@ -1,6 +1,6 @@
 cask "layoutfox" do
-  version "1.0.7"
-  sha256 "54ae14903732f29bea6a52c049933cb5e981ed58b4da05bbca9c78b94d1b29a2"
+  version "1.0.8"
+  sha256 "b326906f3022e7fa8f7fd6e9c0f4916143fe0475be0d92f77d6437f7922280d7"
 
   url "https://github.com/danzerzine/LayoutFox-releases/releases/download/v#{version}/LayoutFox-mac.zip"
   name "LayoutFox"
@@ -14,6 +14,7 @@ cask "layoutfox" do
 
   auto_updates true
   depends_on macos: :sonoma
+  depends_on arch: :arm64
 
   app "LayoutFox.app"
 
