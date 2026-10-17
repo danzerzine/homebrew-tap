@@ -1,6 +1,6 @@
 cask "layoutfox" do
-  version "1.0.9"
-  sha256 "b1001f8f1f766a96a8cb0efc56627137fc3c6f00283cc7ae8fe11ed10850c669"
+  version "1.0.10"
+  sha256 "c2aa60961b043b83fcfbaa7d7cfb3680c017baeb6f8b9c38afb043f5f57c8e3c"
 
   url "https://github.com/danzerzine/LayoutFox-releases/releases/download/v#{version}/LayoutFox-mac.zip"
   name "LayoutFox"
