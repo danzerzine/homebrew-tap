@@ -1,8 +1,11 @@
 cask "layoutfox" do
-  version "1.0.11"
-  sha256 "89cc4f2fa2302f6d83df2819057b8da70a0e0a8a8a35f90210ec3976f90da323"
+  arch arm: "", intel: "-intel"
 
-  url "https://github.com/danzerzine/LayoutFox-releases/releases/download/v#{version}/LayoutFox-mac.zip"
+  version "1.0.12"
+  sha256 arm:   "b29c881d1aba070eeb2d15ef032e27cd426f5a1ce76a269ccabfe5e4055bc30e",
+         intel: "2f06fea7ca381543b0839923512afa6f6e2bdb5c56614615eaf5f65846b17758"
+
+  url "https://github.com/danzerzine/LayoutFox-releases/releases/download/v#{version}/LayoutFox-mac#{arch}.zip"
   name "LayoutFox"
   desc "RU/EN keyboard layout auto-switcher, works with keys from Parsec"
   homepage "https://danzerzine.github.io/LayoutFox-releases/"
