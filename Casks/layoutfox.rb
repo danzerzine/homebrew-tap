@@ -1,9 +1,9 @@
 cask "layoutfox" do
   arch arm: "", intel: "-intel"
 
-  version "1.0.13"
-  sha256 arm:   "8dbe9b8941e7dfc42dc4e0f96245109ce9b8906981fcdaeea5ade7c7ac1abf8c",
-         intel: "14f99c08ee94847de0eb15c1a4d05be948e4555631fa09a4b16ed9441f19c5bb"
+  version "1.1.0"
+  sha256 arm:   "c2fcb73b97e971d3f41cd04257eaa2c3ab19d143b12e2923336c618b5a5da952",
+         intel: "b23c51646887a3413d2c8333b85d10dd89237feeb64596af9c16ed818a622ea1"
 
   url "https://github.com/danzerzine/LayoutFox-releases/releases/download/v#{version}/LayoutFox-mac#{arch}.zip"
   name "LayoutFox"
